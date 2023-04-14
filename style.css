@@ -1,0 +1,32 @@
+@import url(./components/main.css);
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 16rem;
+  padding: 0rem 2rem;
+}
+.landing-page-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 80%;
+}
+.landing-page-contents-title {
+  font-size: 4rem;
+}
+
+.landing-page-contents-summary {
+}
+
+.landing-page-contents-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2rem;
+  border: 0.1rem solid var(--black);
+  width: 12rem;
+  height: 3rem;
+  padding: 1.4rem;
+  border-radius: 3px;
+}

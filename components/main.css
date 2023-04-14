@@ -1,0 +1,27 @@
+@import url(/components/import.css);
+
+body {
+  background: var(--background-color-gradient);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 22px;
+  border-bottom: 1px solid var(--border-color);
+}
+.header-logo > a {
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--font-color);
+}
+.navigation-header > .navigation-header-right,
+.nav-text {
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+  list-style: none;
+  color: var(--font-color);
+}
