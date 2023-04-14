@@ -19,14 +19,25 @@
 .landing-page-contents-summary {
 }
 
-.landing-page-contents-btn {
+.landing-page-contents-btn-container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 250px;
+  height: 50px;
+  border: 0.1rem solid var(--black);
+}
+.landing-page-contents-btn {
   text-decoration: none;
   font-size: 2rem;
-  border: 0.1rem solid var(--black);
-  width: 12rem;
-  height: 3rem;
-  padding: 1.4rem;
   border-radius: 3px;
+  color: var(--black);
+}
+
+.landing-page-contents-btn-container:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.landing-page-contents-btn:hover {
+  color: var(--white);
 }
