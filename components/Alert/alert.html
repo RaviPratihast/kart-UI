@@ -61,7 +61,79 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Alert</h2>
+          <p class="component-sub-heading">
+            The Alert component is used to displays a short, important message
+            in a way that attracts the user's attention without interrupting the
+            user's task.
+          </p>
+          <p class="component-sub-heading">
+            There can be different types of alerts depending on the nature it
+            could be a dangerous warning or task successfully executed alert.
+          </p>
+          <p class="component-sub-heading">
+            Alerts can be created using the class 'alert' inside the div tag and
+            also use the classnames 'alert-success', 'alert-primary',
+            'alert-danger' and 'alert-warning' for the different types of
+            alerts.
+          </p>
+          <div class="component-sub-container">
+            <div class="alert-message-container">
+              <div class="alert-message success-message-container">
+                <h3 class="success-message-text alert-text">
+                  Success Alert Message
+                </h3>
+                <a class="close">&times;</a>
+              </div>
+              <div class="alert-message danger-message-container">
+                <h3 class="danger-message-text alert-text">
+                  Danger Alert Message
+                </h3>
+                <a class="close">&times;</a>
+              </div>
+              <div class="alert-message info-message-container">
+                <h3 class="info-message-text alert-text">Info Alert Message</h3>
+                <a class="close">&times;</a>
+              </div>
+              <div class="alert-message warning-message-container">
+                <h3 class="warning-message-text alert-text">
+                  Warning Alert Message
+                </h3>
+                <a class="close">&times;</a>
+              </div>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;div class="alert-message success-message-container"&gt;
+                &lt;h3 class="alert-message success-message-container"&gt;Success Alert Message&lt;/h3&gt;
+                &lt;a class="close"&gt;&times;&lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class="alert-message danger-message-container"&gt;
+                &lt;h3 class="alert-message danger-message-container"&gt;Danger Alert Message&lt;/h3&gt;
+                &lt;a class="close"&gt;&times;&lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class="alert-message info-message-container"&gt;
+                &lt;h3 class="alert-message info-message-container"&gt;Info Alert Message&lt;/h3&gt;
+                &lt;a class="close"&gt;&times;&lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class="alert-message warning-message-container"&gt;
+                &lt;h3 class="alert-message warning-message-container"&gt;Warning Alert Message&lt;/h3&gt;
+                &lt;a class="close"&gt;&times;&lt;/a&gt;
+                &lt;/div&gt;
+
+                </div>
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

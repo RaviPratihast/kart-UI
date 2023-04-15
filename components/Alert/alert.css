@@ -1,0 +1,18 @@
+.close {
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.success-message-container {
+  background-color: var(--success);
+}
+.danger-message-container {
+  background-color: var(--danger);
+}
+.info-message-container {
+  background-color: var(--primary);
+}
+.warning-message-container {
+  background-color: var(--warning);
+}
