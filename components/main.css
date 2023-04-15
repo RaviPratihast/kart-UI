@@ -105,17 +105,16 @@ body {
 pre {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  background-color: #1e1e1e;
   color: var(--success);
   font-family: "Fira Code", monospace;
   font-size: 18px;
-  /* line-height: 1.5; */
-  /* padding: 10px; */
   width: 100%;
   height: auto;
-  margin-inline: auto;
+}
+pre > code {
+  background-color:var(--black);
+  padding: 20px;
+  width: 100%;
 }
 
 .component-sub-container {
@@ -129,6 +128,7 @@ pre {
   -moz-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75); */
 }
+/* colors */
 .component-sub-container > .colors-container {
   display: flex;
   flex-direction: column;
@@ -158,4 +158,20 @@ pre {
 }
 .black {
   background-color: var(--black);
+}
+
+/* typography */
+.kart-headings-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+.kart-headings-container > .gray-centered-heading {
+  margin-inline: auto;
+  font-size: 25px;
+  font-weight: 800;
+  color: var(--gray);
 }
