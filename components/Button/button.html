@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="../main.css" />
     <title>kart UI | Button</title>
   </head>
@@ -61,7 +65,147 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Button</h2>
+          <p class="component-sub-heading">
+            The Button component lets you add standard HTML buttons to your
+            project. It allow users to take actions, and make choices, with a
+            single tap.
+          </p>
+          <h2 class="component-title">Default Button</h2>
+          <p class="component-sub-heading">
+            This is the default html tag button without any style.
+          </p>
+          <div class="component-sub-container">
+            <div class="button-container">
+              <button>Default</button>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;button&gt;Default&lt;/button&gt;    
+              </code>
+            </pre>
+          </div>
+
+          <h2 class="component-title">Standard Button</h2>
+          <p class="component-sub-heading">
+            Contained buttons are high-emphasis, distinguished by their use of
+            elevation and fill. They contain actions that are primary to your
+            app. The 'btn' class is used for basic styling of button and classes
+            'btn-primary', 'btn-success', 'btn-danger' and 'btn-warning' for
+            colors.
+          </p>
+          <div class="component-sub-container">
+            <div class="button-container">
+              <button class="btn btn-primary">Primary</button>
+              <button class="btn btn-success">Success</button>
+              <button class="btn btn-danger">Danger</button>
+              <button class="btn btn-warning">Warning</button>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;  
+                &lt;button class="btn btn-success"&gt;Success&lt;/button&gt;  
+                &lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;  
+                &lt;button class="btn btn-warning"&gt;Warning&lt;/button&gt;  
+
+                
+              </code>
+            </pre>
+          </div>
+          <h2 class="component-title">Icon Button</h2>
+          <p class="component-sub-heading">
+            Icon buttons allow users to take actions, and make choices, with a
+            single tap. Simply these are buttons with icons such as home
+            notifications. The 'btn', 'btn-icon' , 'btn-menu' and 'btn-trash'
+            class is used for basic styling and introducing icons to button.
+          </p>
+          <div class="component-sub-container">
+            <div class="button-container">
+              <button class="btn btn-icon">
+                <span class="material-symbols-outlined"> house </span>
+              </button>
+
+              <button class="btn btn-icon">
+                <span class="material-symbols-outlined"> share </span>
+              </button>
+              <button class="btn btn-menu">
+                <span class="material-symbols-outlined"> folder </span>
+              </button>
+              <button class="btn btn-trash">
+                <span class="material-symbols-outlined"> delete </span>
+              </button>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;button class="btn btn-icon"&gt;&lt;span class="material-symbols-outlined"&gt;House&lt;/span&gt;&lt;/button&gt;  
+                &lt;button class="btn btn-icon"&gt;&lt;span class="material-symbols-outlined"&gt;share&lt;/span&gt;&lt;/button&gt;  
+                &lt;button class="btn btn-menu"&gt;&lt;span class="material-symbols-outlined"&gt;folder&lt;/span&gt;&lt;/button&gt;  
+                &lt;button class="btn btn-trash"&gt;&lt;span class="material-symbols-outlined"&gt;delete&lt;/span&gt;&lt;/button&gt;  
+      
+              </code>
+            </pre>
+          </div>
+          <h2 class="component-title">Link Button</h2>
+          <p class="component-sub-heading">
+            Link Buttons create a hyperlink-style button on the Web page. The
+            Link Button control has the same appearance as a HyperLink control,
+            but has the same functionality as a Button control. Here we have use
+            the class 'btn btn-link' for basic button styling.
+          </p>
+          <div class="component-sub-container">
+            <div class="button-container">
+              <button class="btn btn-icon">
+                <a href="#">Link</a>
+              </button>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;button class="btn btn-icon"&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/button&gt;  
+               
+      
+              </code>
+            </pre>
+          </div>
+          <h2 class="component-title">Floating Action Button</h2>
+          <p class="component-sub-heading">
+            A floating action button (FAB) performs the primary, or most common,
+            action on a screen. It appears in front of all screen content,
+            typically as a circular shape with an icon in its center. Here we
+            have used classes 'btn btn-float' for basic styling.
+          </p>
+          <div class="component-sub-container">
+            <div class="button-container">
+              <button class="btn btn-floating">
+                <span class="material-symbols-outlined"> add_circle </span>
+              </button>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;button class="btn btn-floating"&gt;&lt;span class="material-symbols-outlined"&gt;add_circle&lt;/span&gt;&lt;/button&gt;  
+               
+      
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
