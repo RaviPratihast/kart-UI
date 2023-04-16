@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../main.css" />
     <title>kart UI | Badge</title>
   </head>
@@ -61,7 +65,108 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Badge</h2>
+          <p class="component-sub-heading">
+            A Badge is a visual indicator for numeric values such as tallies and
+            notifications pending. It is also used to show online and offline
+            status of a person.
+          </p>
+          <h2 class="component-title">Badge on Icon</h2>
+          <p class="component-sub-heading">
+            On icons badge are used to show the count of notifications or mails
+            are pending. Here we use classes 'badge', 'icon-btn-pos' to position
+            badge over the icons button with class 'icon-btn'.
+          </p>
+          <div class="component-sub-container">
+            <div class="badge-notification-container">
+              <button class="badge-icon-btn">
+                <span class="material-icons notification-icon">
+                  notifications
+                </span>
+                <span class="badge-icon">10</span>
+              </button>
+              <button class="badge-icon-btn">
+                <span class="material-icons notification-icon"> mail </span>
+                <span class="badge-icon">10</span>
+              </button>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;button class="badge-icon-btn"&gt;
+                &lt;span class="material-icons notification-icon"&gt; notifications &lt;/span&gt;
+                &lt;span class="badge-icon"&gt;10 &lt;/span&gt;
+                &lt;/button&gt;
+
+                &lt;button class="badge-icon-btn"&gt;
+                &lt;span class="material-icons notification-icon"&gt; mail&lt;/span&gt;
+                &lt;span class="badge-icon"&gt;10 &lt;/span&gt;
+                &lt;/button&gt;
+
+                
+              </code>
+            </pre>
+          </div>
+          <h2 class="component-title">Badge on Avatar</h2>
+          <p class="component-sub-heading">
+            On avatar badges are used to show status on people's account whether
+            they are online or offline. Here we use classes 'badge', 'badge-av'
+            'profile-av' and 'profile-av-pos' to position badge over the icons
+            button with class 'badge-on' or 'badge-dnd' to show the status.
+          </p>
+          <div class="component-sub-container">
+            <div class="badge-notification-container">
+              <div class="avatar-container avatar-container-badge">
+                <img
+                  src="/images/avatar.webp"
+                  alt="avatar"
+                  class="avatar-profile"
+                />
+
+                <span class="avatar-profile-badge-icon online"></span>
+              </div>
+              <div class="avatar-container avatar-container-badge">
+                <img
+                  src="/images/avatar.webp"
+                  alt="avatar"
+                  class="avatar-profile"
+                />
+
+                <span class="avatar-profile-badge-icon offline"></span>
+              </div>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                    
+                &lt;div class="avatar-container avatar-container-badge"&gt;
+                &lt;img
+                src="/images/avatar.webp"
+                alt="avatar"
+                class="avatar-profile"/&gt;
+                &lt;span class="avatar-profile-badge-icon online"&gt; &lt;/span&gt;
+                &lt;/div&gt;
+                
+                &lt;div class="avatar-container avatar-container-badge"&gt;
+                &lt;img
+                src="/images/avatar.webp"
+                alt="avatar"
+                class="avatar-profile"/&gt;
+                &lt;span class="avatar-profile-badge-icon offline"&gt; &lt;/span&gt;
+                &lt;/div&gt;
+
+           
+                
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
