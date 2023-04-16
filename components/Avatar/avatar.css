@@ -1,0 +1,38 @@
+.avatars-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: 20px;
+  gap: 40px;
+}
+
+.avatar-profile {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.avatar-square{
+    height: 120px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+/* sized avatar */
+.avatar-small{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.avatar-medium{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.avatar-large{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}

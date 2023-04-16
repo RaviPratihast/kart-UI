@@ -10,3 +10,19 @@
   --danger: #ff3000;
   --warning: #ffff00;
 }
+
+.primary {
+  background-color: var(--primary);
+}
+.success {
+  background-color: var(--success);
+}
+.danger {
+  background-color: var(--danger);
+}
+.warning {
+  background-color: var(--warning);
+}
+.black {
+  background-color: var(--black);
+}
