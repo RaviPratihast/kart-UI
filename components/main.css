@@ -79,11 +79,12 @@ body {
   width: 100%;
   height: auto;
   border: 1px solid var(--border-color);
-  margin-top: 15px;
+  margin-top: 17px;
   margin-right: 10px;
-  -webkit-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  /* -webkit-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75); */
 }
 .component-container {
   display: flex;
