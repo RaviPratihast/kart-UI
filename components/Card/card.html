@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,200"
+    />
     <link rel="stylesheet" href="../main.css" />
     <title>kart UI | Card</title>
   </head>
@@ -61,7 +65,100 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Cards</h2>
+          <p class="component-sub-heading">
+            The card component is used to group various pieces of content into a
+            container which can be used throughout your website. They should be
+            easy to scan for relevant and actionable information. Elements, like
+            text and images, should be placed on them in a way that clearly
+            indicates hierarchy.
+          </p>
+          <h2 class="component-title">Cards With Text</h2>
+          <p class="component-sub-heading">
+            This is an simple card with an title and small description. To use
+            this you need to use two classes 'card' for the basic layout and
+            'card-title' for the heading.
+          </p>
+          <div class="component-sub-container">
+            <div class="card-container">
+              <h3 class="card-title">Card Heading</h3>
+              <div>Card Sub Heading</div>
+              <p class="card-description">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;div class="card-container"&gt;
+                  &lt;h3 class="card-title"&gt;Card Heading&lt;/h3&gt;
+                  &lt;div&gt;Card Sub Heading&lt;/div&gt;
+                  &lt;p class="card-description"&gt;
+                    some description
+                  &lt;/p&gt;
+                &lt;/div&gt;
+               
+      
+              </code>
+            </pre>
+          </div>
+
+          <h2 class="component-title">Card With Dismiss</h2>
+          <p class="component-sub-heading">
+            It's basically a simple card added with an an icon which closes the
+            card; needs to be given when we want the card to be dismissible.
+            Here we basically add two more class in the above card example
+            'card-dismiss-header' and 'card-close'.
+          </p>
+          <div class="component-sub-container">
+            <div class="card-container">
+              <div class="card-dismiss-header">
+                <h3 class="card-title">Card Heading</h3>
+                <a href="#" class="card-close close">
+                  <span class="material-symbols-outlined card-close-icon">
+                    close
+                  </span>
+                </a>
+              </div>
+              <div>Card Sub Heading</div>
+              <p class="card-description">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+              </p>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                
+                &lt;div class="card-container"&gt;
+                &lt;div class="card-dismiss-header"&gt;
+                  &lt;h3 class="card-title"&gt;Card Heading&lt;/h3&gt;
+                  &lt;a href="#" class="card-close close"&gt;
+                    &lt;span class="material-symbols-outlined card-close-icon"&gt;
+                      close
+                    &lt;/span&gt;
+                  &lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div&gt;Card Sub Heading&lt;/div&gt;
+                  &lt;p class="card-description"&gt;
+                    some description
+                  &lt;/p&gt;
+                &lt;/div&gt;
+               
+      
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
