@@ -3,11 +3,14 @@
   flex-direction: column;
   border-radius: 4px;
   width: 350px;
+  position: relative;
   /* height: 270px; */
   border: 1px solid var(--border-color);
   margin: 20px;
   padding: 15px 20px;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
   -webkit-box-shadow: 2px -3px 28px -15px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px -3px 28px -15px rgba(0, 0, 0, 0.75);
   box-shadow: 2px -3px 28px -15px rgba(0, 0, 0, 0.75);
@@ -111,4 +114,21 @@
   border: 1px solid var(--primary);
   background-color: var(--white);
   color: var(--primary);
+}
+
+/* card overlay */
+
+.card-overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 35px;
+  color: var(--white);
+  background-color: rgba(84, 81, 81, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
