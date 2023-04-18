@@ -61,7 +61,64 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <!-- input -->
+          <h2 class="component-title">Input</h2>
+          <p class="component-sub-heading">
+            Input fields are an essential user interface design element,
+            providing users with the means to enter non-standardized responses.
+            Input component has a range of options and supports several text
+            formats including numbers.
+          </p>
+          <!-- textbox -->
+          <h2 class="component-title">Textbox</h2>
+          <p class="component-sub-heading">
+            This is an general input component i.e., textbox. Textarea tag is is
+            used along with class 'input-box' for basic styling. Also Input tag
+            can be used to create an text box with type specified as text.
+          </p>
+          <div class="component-sub-container">
+            <div class="input-container">
+              <!-- <label for="text-input">Enter Text:</label> -->
+              <textarea
+                name="text"
+                class="text-input"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;textarea name="text" class="text-input" cols="30" rows="10"&gt;&lt;/textarea&gt;
+              </code>
+            </pre>
+          </div>
+          <!-- input with validation -->
+          <h2 class="component-title">Input with validation</h2>
+          <p class="component-sub-heading">
+            This is an general input component with validation provided. It can
+            be of different natures like success or invalid.
+          </p>
+          <div class="component-sub-container">
+            <div class="input-container">
+              <!-- <label for="text-input">Enter Text:</label> -->
+             <input type="email" class="input-mail">
+             <p class="email-validation-text">Invalid Email Address</p>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;input type="email" class="input-mail"&gt;
+                &lt;p class="email-validation-text"&gt;Invalid Email Address&lt;/p&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
