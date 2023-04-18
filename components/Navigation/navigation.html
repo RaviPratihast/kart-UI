@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="../main.css" />
     <title>kart UI | Navigation</title>
   </head>
@@ -59,7 +63,84 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Navigation</h2>
+          <p class="component-sub-heading">
+            Navigation component helps you implement navigation, from simple
+            button clicks to more complex patterns, such as app bars and the
+            navigation drawer. These are helpful for users to navigate between
+            various pages.
+          </p>
+          <h2 class="component-title">Navigation Desktop</h2>
+          <div class="component-sub-container">
+            <nav class="nav-box">
+              <a href="#" class="nav-contents">Home</a>
+              <a href="#" class="nav-contents">Service</a>
+              <a href="#" class="nav-contents">About</a>
+            </nav>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;nav class="nav-box"&gt;
+                  &lt;a href="#" class="nav-contents"&gt;Home&lt;/a&gt;
+                  &lt;a href="#" class="nav-contents"&gt;Service&lt;/a&gt;
+                  &lt;a href="#" class="nav-contents"&gt;About&lt;/a&gt;
+                &lt;/nav&gt;
+                </code>
+            </pre>
+          </div>
+          <!-- drawer -->
+          <h2 class="component-title">Navigation With Drawer</h2>
+          <div class="component-sub-container">
+            <nav class="nav-box">
+              <span class="material-symbols-outlined menu-icon"> menu </span>
+              <a href="#" class="nav-contents">Home</a>
+              <a href="#" class="nav-contents">Service</a>
+              <a href="#" class="nav-contents">About</a>
+            </nav>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;nav class="nav-box"&gt;
+                &lt;span class="material-symbols-outlined menu-icon"&gt; menu &lt;/span&gt;
+                  &lt;a href="#" class="nav-contents"&gt;Home&lt;/a&gt;
+                  &lt;a href="#" class="nav-contents"&gt;Service&lt;/a&gt;
+                  &lt;a href="#" class="nav-contents"&gt;About&lt;/a&gt;
+                &lt;/nav&gt;
+                </code>
+            </pre>
+          </div>
+          <!-- navigation with dropdown -->
+          <h2 class="component-title">Navigation With Dropdown</h2>
+          <div class="component-sub-container">
+            <nav class="nav-box">
+              <a href="#" class="nav-contents"
+                >Home<span class="material-symbols-outlined drop-down-icon">
+                  arrow_drop_down
+                </span></a
+              >
+              <a href="#" class="nav-contents">Service</a>
+              <a href="#" class="nav-contents">About</a>
+            </nav>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;nav class="nav-box"&gt;
+                  &lt;a href="#" class="nav-contents"&gt;Home&lt;span class="material-symbols-outlined drop-down-icon"&gt;
+                    arrow_drop_down
+                  &lt;/span&gt;&lt;/a&gt;
+                  &lt;a href="#" class="nav-contents"&gt;Service&lt;/a&gt;
+                  &lt;a href="#" class="nav-contents"&gt;About&lt;/a&gt;
+                &lt;/nav&gt;
+                </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
