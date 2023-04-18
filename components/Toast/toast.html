@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="../main.css" />
     <title>kart UI | Toast</title>
   </head>
@@ -17,8 +21,8 @@
           </li>
           <li class="navigation-header-right-menu">
             <a href="https://github.com/RaviPratihast/kart-UI" class="nav-text"
-            >GitHub</a
-          >
+              >GitHub</a
+            >
           </li>
           <li class="navigation-header-right-menu">
             <a href="#" class="nav-text">Releases</a>
@@ -61,7 +65,62 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Rating</h2>
+          <p class="component-sub-heading">
+            Rating Component helps capture the user feedback in form of rating.
+            The greater the number of people leaving feedback, the more reliable
+            a star rating is likely to be as an indicator of quality. It can be
+            in form of visual starts. Here we have used font awesome for the
+            icon and used classes 'rating', 'rating-checked' and
+            'rating-unchecked' for the different variations of ratings.
+          </p>
+          <h2 class="component-title">Unchecked Rating</h2>
+          <div class="component-sub-container">
+            <div class="toast-container general-toast">
+              <h3>Hello,world this is toast message.</h3>
+              <a href="#" class="close"
+                ><span class="material-symbols-outlined"> cancel </span></a
+              >
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;div class="toast-container general-toast"&gt;
+                  &lt;h3&gt;Hello,world this is toast message.&lt;/h3&gt;
+                  &lt;a href="#" class="close"
+                    &gt;&lt;span class="material-symbols-outlined"&gt; cancel &lt;/span&gt;&lt;/a
+                  &gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <!-- error toast -->
+          <h2 class="component-title">Unchecked Rating</h2>
+          <div class="component-sub-container">
+            <div class="toast-container error-toast">
+              <h3>Hello,world this is toast message.</h3>
+              <a href="#" class="close"
+                ><span class="material-symbols-outlined"> cancel </span></a
+              >
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;div class="toast-container error-toast"&gt;
+                  &lt;h3&gt;Hello,world this is toast message.&lt;/h3&gt;
+                  &lt;a href="#" class="close"
+                    &gt;&lt;span class="material-symbols-outlined"&gt; cancel &lt;/span&gt;&lt;/a
+                  &gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
