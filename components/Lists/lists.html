@@ -61,7 +61,81 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">List</h2>
+          <p class="component-sub-heading">
+            Lists are continuous, vertical indexes of text or images. They are
+            composed of items containing primary and supplemental actions, which
+            are represented by icons and text.
+          </p>
+          <h2 class="component-title">Spaced List</h2>
+          <div class="component-sub-container">
+            <div class="list-container">
+              <ul class="list list-style">
+                <div class="list-title">Categories</div>
+                <li class="list-content">Superhero</li>
+                <li class="list-content">Science Friction</li>
+                <li class="list-content">Horror</li>
+                <li class="list-content">Humor</li>
+              </ul>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;ul class="list list-style"&gt;
+                  &lt;div class="list-title"&gt;Categories&lt;/div&gt;
+                  &lt;li class="list-content"&gt;Superhero&lt;/li&gt;
+                  &lt;li class="list-content"&gt;Science Friction&lt;/li&gt;
+                  &lt;li class="list-content"&gt;Horror&lt;/li&gt;
+                  &lt;li class="list-content"&gt;Humor&lt;/li&gt;
+                &lt;/ul&gt;
+              </code>
+            </pre>
+          </div>
+          <!--  stacked list-->
+          <h2 class="component-title">Staked Lists</h2>
+          <div class="component-sub-container">
+            <div class="list-container">
+              <ul class="list list-style">
+                <div class="list-title">Categories</div>
+                <li class="superhero-list-content">
+                    <div class="list-selected">Superhero</div>
+                    <ul class="list-style-selected">
+                      <li class="list-content">Batman</li>
+                      <li class="list-content">Superman</li>
+                      <li class="list-content">Green Lantern</li>
+                    </ul>
+                </li>
+                <li class="list-content">Science Friction</li>
+                <li class="list-content">Horror</li>
+                <li class="list-content">Humor</li>
+              </ul>
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;ul class="list list-style"&gt;
+                  &lt;div class="list-title"&gt;Categories&lt;/div&gt;
+                  &lt;li class="superhero-list-content"&gt;
+                    &lt;div class="list-selected"&gt;Superhero&lt;/div&gt;
+                    &lt;ul class="list-style-selected"&gt;
+                      &lt;li class="list-content"&gt;Batman&lt;/li&gt;
+                      &lt;li class="list-content"&gt;Superman&lt;/li&gt;
+                      &lt;li class="list-content"&gt;Green Lantern&lt;/li&gt;
+                    &lt;/ul&gt;
+                   &lt;/li&gt;
+                  &lt;li class="list-content"&gt;Science Friction&lt;/li&gt;
+                  &lt;li class="list-content"&gt;Horror&lt;/li&gt;
+                  &lt;li class="list-content"&gt;Humor&lt;/li&gt;
+                &lt;/ul&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
