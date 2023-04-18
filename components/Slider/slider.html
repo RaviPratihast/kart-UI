@@ -18,8 +18,8 @@
           </li>
           <li class="navigation-header-right-menu">
             <a href="https://github.com/RaviPratihast/kart-UI" class="nav-text"
-            >GitHub</a
-          >
+              >GitHub</a
+            >
           </li>
           <li class="navigation-header-right-menu">
             <a href="#" class="nav-text">Releases</a>
@@ -62,7 +62,76 @@
           >Simplified Grid</a
         >
       </aside>
-      <section class="content-container"></section>
+      <section class="content-container">
+        <div class="component-container">
+          <h2 class="component-title">Slider</h2>
+          <p class="component-sub-heading">
+            The Slider component selects a numeric value in a specific range by
+            dragging a thumb along a track. A slider may be displayed in either
+            a horizontal or a vertical direction.
+          </p>
+          <h2 class="component-title">Default Slider</h2>
+          <p class="component-sub-heading">
+            This is the default slider provided slider using an simple input tag
+            along with type range.
+          </p>
+          <div class="component-sub-container">
+            <div class="slider-container">
+              <input
+                type="range"
+                class="input-range"
+                min="1"
+                max="100"
+                value="50"
+              />
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;div class="slider-container"&gt;
+                  &lt;input type="range"  min="1" max="100" value="50"&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <!-- customised slider -->
+          <h2 class="component-title">customized Slider</h2>
+          <p class="component-sub-heading">
+            The default slider can be customised as per our choice. Here we have
+            used classes such as 'slider' along with 'slider-circle' and
+            'slider-square' to change the default styling of track and thumb.
+          </p>
+          <div class="component-sub-container">
+            <div class="slider-container">
+              <input
+                type="range"
+                class="input-range slider slider-primary slider-circle"
+                min="1"
+                max="100"
+                value="50"
+              />
+              <input
+                type="range"
+                class="input-range slider slider-danger slider-square"
+                min="1"
+                max="100"
+                value="50"
+              />
+            </div>
+          </div>
+          <div class="component-sub-container">
+            <pre>
+              <code class="language-html">
+                &lt;div class="slider-container"&gt;
+                  &lt;input type="range" class="input-range slider slider-primary slider-circle"  min="1" max="100" value="50"&gt;
+                  &lt;input type="range"  class="input-range slider slider-danger slider-square"  min="1" max="100" value="50"&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
