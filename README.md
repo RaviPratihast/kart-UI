@@ -44,10 +44,6 @@ Kart allows you to design and build web Apps faster by providing a range of reus
   * Installation & Setup
   * Component Customization
 
-## Demo
-
-* It is just a demo, for better look of this E-commerce go to the about section, have added a link for this App.
-
 
 ## Tech
 
