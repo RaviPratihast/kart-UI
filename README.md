@@ -48,6 +48,7 @@ Kart allows you to design and build web Apps faster by providing a range of reus
 ## Tech
 
 * Tech Stack
+  * JS 
   * HTML5
   * CSS3
   * Flexbox Layout
