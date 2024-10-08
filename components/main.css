@@ -32,20 +32,18 @@ body {
 .navigation-header > .navigation-header-right,
 .nav-text {
   display: flex;
+  margin-right: 20px;
   gap: 50px;
   text-decoration: none;
   list-style: none;
   color: var(--font-color);
 }
 
-/* main */
 .content-box {
   display: flex;
   margin-top: 70px;
-  /* gap: 10px; */
 }
 
-/* aside */
 .content-box-sidebar-nav {
   display: flex;
   flex-direction: column;
@@ -56,12 +54,9 @@ body {
   border: 0.1px solid var(--border-color);
   background-color: var(--white);
   border-radius: 10px;
-  /* gap: 8px; */
   margin: 15px 15px;
   padding: 10px;
   position: fixed;
-  /* top: 0; */
-  /* left: 0; */
 }
 .sidebar-nav {
   text-decoration: none;
@@ -73,7 +68,6 @@ body {
   text-decoration: underline;
 }
 
-/* section */
 .content-container {
   margin-left: 15rem;
   width: 100%;
@@ -82,16 +76,12 @@ body {
   margin-top: 17px;
   margin-right: 10px;
   border-radius: 5px;
-  /* -webkit-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75); */
 }
 .component-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 30px;
-  /* border: 1px solid black; */
   margin: 100px;
   padding: 20px;
 }
@@ -125,11 +115,7 @@ pre > code {
   flex-wrap: wrap;
   border: 1px solid var(--border-color);
   border-radius: 5px;
-  /* -webkit-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75); */
 }
-/* colors */
 .component-sub-container > .colors-container {
   display: flex;
   flex-direction: column;
@@ -146,8 +132,6 @@ pre > code {
   box-shadow: 2px 32px 44px -32px rgba(0, 0, 0, 0.75);
 }
 
-
-/* typography */
 .kart-headings-container {
   display: flex;
   flex-direction: column;
@@ -163,7 +147,6 @@ pre > code {
   color: var(--gray);
 }
 
-/* alert */
 .alert-message-container {
   display: flex;
   flex-direction: column;
@@ -171,7 +154,6 @@ pre > code {
   margin: 20px;
 }
 .alert-message {
-  /* border: 1px solid var(--border-color); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -185,4 +167,3 @@ pre > code {
   color: var(--black);
 }
 
-/* avatar */
